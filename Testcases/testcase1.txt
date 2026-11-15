@@ -1,0 +1,11 @@
+Test Case 1:
+Input: rock
+Expected Output: Draw
+
+Test Case 2:
+Input: paper
+Expected Output: Result should be displayed
+
+Test Case 3:
+Input: scissors
+Expected Output: Result should be displayed
