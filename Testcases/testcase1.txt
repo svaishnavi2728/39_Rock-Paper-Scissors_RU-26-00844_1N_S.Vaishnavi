@@ -1,0 +1,16 @@
+Test Case 1: Normal Input
+Player: rock, rock, rock
+Computer: scissors, rock, paper
+
+Test Case 2: Boundary / Minimum Input
+Player: rock, paper, scissors
+Computer: scissors, rock, paper
+
+Test Case 3: Invalid Input
+Round 1 input: stone, then rock
+Expected: Invalid choice. Enter rock, paper or scissors.
+
+Test Case 4: Different Valid Scenario
+Player: scissors, scissors, rock
+Computer: scissors, rock, paper
+Play again? n
