@@ -63,15 +63,15 @@ def play_game():
             result = check_winner(me, pc)
 
             if result == "player":
-                print("You win!")
+                print(f"Round{i+1}:You win")
                 player_score += 1
 
             elif result == "computer":
-                print("Computer wins!")
+                print(f"Round{i+1}:Computer wins")
                 computer_score += 1
 
             else:
-                print("Draw!")
+                print(f"Round{i+1}:Draw")
                 draws += 1
 
             print("--------------------")
